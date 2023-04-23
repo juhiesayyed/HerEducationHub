@@ -1,0 +1,33 @@
+.Latest-Updates{
+    background-color:#FF8F8F ;
+    height: 60px;
+    width: 88.5%;
+    border: 4px solid #FF3D3D;
+    margin-top: 20px;
+    text-align:left;
+    justify-content: center;
+    display: flex;
+    color: white;
+    padding: 0.5rem 0.5rem ;
+    margin-left: 150px;
+    grid-area: outer;
+
+}
+
+.Small-Rectangle{
+    background-color:#FF3D3D ;
+    width: 145px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    color: white;
+   text-align: center;
+   align-items: center;
+   grid-area: inner;
+   margin-top: 30px;
+}
+
+.outerbox{
+    display: grid;
+    grid-template-areas: inner outer;
+}
