@@ -1,0 +1,212 @@
+.modules-container1{
+    display: grid;
+    grid-template-areas: description1 notice;
+    }
+    
+    .description1{
+    grid-area: description1;
+    background-color:#FFE3E1;
+    border: 2px solid #FF0000;
+    border: 30px;
+    text-align: center;
+    align-items: center;
+    width: 850px;
+    height: 250px;
+    border-radius: 20px;
+    margin-left: 2px;
+    margin-top: 2px;
+    border: 1.5px solid #FF0000;
+    
+    }
+    
+
+    .notice-board1{
+        margin-left:950px;
+    grid-area: notice;
+    background-color:#3C2B63;
+    width: 240px;
+    height: 245px;
+    
+    border-top: 10px solid #805DD5 ;
+    border-left: 10px solid #805DD5;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    }
+    
+    .buttondesign11{
+        cursor: pointer;
+        width: 145px;
+        height: 40px;
+        background-color:#D8C8FF;
+        border-radius: 30px;
+        border: 3px solid #432C7A ;
+        transition: all 0.5s;
+    
+    
+    }
+    .buttondesign11 span{
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+      }
+      
+      .buttondesign11 span:after{
+          content: '\00bb';
+          position: absolute;
+          opacity: 0;
+          top: 0;
+          right: -20px;
+          transition: 0.5s;
+      }
+      .buttondesign11:hover span{
+          padding-right: 25px;
+      }
+      .buttondesign11:hover span:after{
+        opacity: 1;
+        right: 0;
+      }
+      
+
+
+
+    .buttondesign21{
+        cursor: pointer;
+        width: 145px;
+        height: 40px;
+        background-color:#D8C8FF;
+        border-radius: 30px;
+        border: 3px solid #432C7A ;
+        margin-left: 30px;
+        transition: all 0.5s;
+    
+    
+    }
+    .buttondesign21 span{
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+      }
+      
+      .buttondesign21 span:after{
+          content: '\00bb';
+          position: absolute;
+          opacity: 0;
+          top: 0;
+          right: -20px;
+          transition: 0.5s;
+      }
+      .buttondesign21:hover span{
+          padding-right: 25px;
+      }
+      .buttondesign21:hover span:after{
+        opacity: 1;
+        right: 0;
+      }
+      
+
+
+
+
+
+
+
+
+
+    
+    .buttondesign31{
+        cursor: pointer;
+        width: 145px;
+        height: 40px;
+        background-color:#D8C8FF;
+        border-radius: 30px;
+        border: 3px solid #432C7A ;
+        margin-left: 30px;
+        transition: all 0.5s;
+    
+    
+    }
+    .buttondesign31 span{
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+      }
+      
+      .buttondesign31 span:after{
+          content: '\00bb';
+          position: absolute;
+          opacity: 0;
+          top: 0;
+          right: -20px;
+          transition: 0.5s;
+      }
+      .buttondesign31:hover span{
+          padding-right: 25px;
+      }
+      .buttondesign31:hover span:after{
+        opacity: 1;
+        right: 0;
+      }
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .info1{
+        color: #432C7A;
+        text-decoration: none;
+    
+    }
+    
+    
+    
+    .h31{
+        color: #FF3D3D
+    
+    }
+    .content1{
+        color: #FF7272;
+    
+    }
+    .notice-content1{
+        color: #D8C8FF;
+        text-align: center;
+        font-size: 12px;
+        padding: 0rem 1.5rem;
+    }
+    .notice-heading1{
+        color: white;
+        text-align: center;
+    }
+
+    .waviy {
+        position: relative;
+      }
+      .waviy span {
+        position: relative;
+        display: inline-block;
+        font-size: 18px;
+        color: #fff;
+        animation: flip 2s infinite;
+        animation-delay: calc(.3s * var(--i));
+        text-align: center;
+        margin-top: 5px;
+      }
+    
+      @keyframes flip {
+        0%,80% {
+          transform: rotateY(360deg) 
+        }
+      }
