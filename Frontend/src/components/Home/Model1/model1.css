@@ -1,0 +1,230 @@
+.modules-container{
+display: grid;
+grid-template-areas: notice description1;
+}
+
+
+.description{
+grid-area: description1;
+background-color:#FFE3E1;
+border: 2px solid #FF0000;
+border: 30px;
+text-align: center;
+align-items: center;
+width: 850px;
+height: 250px;
+border-radius: 20px;
+margin-left: 350px;
+border: 1.5px solid #FF0000;
+
+}
+
+
+
+
+.notice-board{
+grid-area: notice;
+background-color:#3C2B63;
+width: 240px;
+height: 245px;
+margin-left: 10px;
+margin-top: 2px;
+border-top: 10px solid #805DD5 ;
+border-left: 10px solid #805DD5;
+border-bottom-left-radius: 30px;
+border-top-right-radius: 30px;
+border-top-left-radius: 30px;
+}
+
+
+
+
+
+
+
+.buttondesign1{
+    cursor: pointer;
+    width: 145px;
+    height: 40px;
+    background-color:#D8C8FF;
+    border-radius: 30px;
+    border: 3px solid #432C7A ;
+    transition: all 0.5s;
+
+}
+
+.buttondesign1 span{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.buttondesign1 span:after{
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+.buttondesign1:hover span{
+    padding-right: 25px;
+}
+.buttondesign1:hover span:after{
+  opacity: 1;
+  right: 0;
+}
+
+
+
+
+
+
+
+
+.buttondesign2{
+    cursor: pointer;
+    width: 145px;
+    height: 40px;
+    background-color:#D8C8FF;
+    border-radius: 30px;
+    border: 3px solid #432C7A ;
+    margin-left: 30px;
+    transition: all 0.5s;
+
+
+}
+.buttondesign2 span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .buttondesign2 span:after{
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+  }
+  .buttondesign2:hover span{
+      padding-right: 25px;
+  }
+  .buttondesign2:hover span:after{
+    opacity: 1;
+    right: 0;
+  }
+  
+  
+
+.buttondesign3{
+    cursor: pointer;
+    width: 145px;
+    height: 40px;
+    background-color:#D8C8FF;
+    border-radius: 30px;
+    border: 3px solid #432C7A ;
+    margin-left: 30px;
+    transition: all 0.5s;
+
+
+}
+.buttondesign3 span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .buttondesign3 span:after{
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+  }
+  .buttondesign3:hover span{
+      padding-right: 25px;
+  }
+  .buttondesign3:hover span:after{
+    opacity: 1;
+    right: 0;
+  }
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+.info{
+    color: #432C7A;
+    text-decoration: none;
+
+}
+
+
+
+.h3{
+    color: #FF3D3D
+
+}
+.content{
+    color: #FF7272;
+
+}
+.notice-content{
+    color: #D8C8FF;
+    text-align: center;
+    font-size: 12px;
+    padding: 0rem 1.5rem;
+}
+.notice-heading{
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.waviy {
+    position: relative;
+  }
+  .waviy span {
+    position: relative;
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    animation: flip 2s infinite;
+    animation-delay: calc(.3s * var(--i));
+    text-align: center;
+    margin-top: 5px;
+  }
+
+  @keyframes flip {
+    0%,80% {
+      transform: rotateY(360deg) 
+    }
+  }
