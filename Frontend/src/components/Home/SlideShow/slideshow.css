@@ -1,0 +1,20 @@
+/* 
+.slideshow-container{
+    height: 50px;
+    border:10px solid red;
+    
+}
+
+.img{
+    height: 400px;
+    width: 70%;
+    margin-left: 2vw;
+} */
+.slider{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-color: #FF9292;
+    margin-top: 10px;
+    border: 2px solid #ff7474;
+}
