@@ -1,0 +1,51 @@
+.Nav-bg{
+    background-color: #FFE3E1;
+    display: flex;
+    height: 110px;
+    width: 100%;
+}
+
+.image-container{
+margin-top: 6px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.Image{
+    height: 190%;
+    
+    /* display: flex; */
+    cursor: pointer;
+    /* text-align: left; */
+    /* margin-bottom: 5px; */
+    /* padding: 0rem 0rem; */
+}
+
+.Navigation {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 0rem 40rem;
+    text-decoration: none;
+    list-style-type: none;
+    cursor: pointer;
+
+  }
+
+  .Navigation li{
+    display: flex;
+    color:#FF7272;
+    padding: 5rem 1.5rem;
+    text-decoration: none;
+
+  }
+
+  .Text{
+    display: flex;
+    color:#FF7272;
+    text-decoration: none;
+
+  }
